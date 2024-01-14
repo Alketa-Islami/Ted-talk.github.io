@@ -1,0 +1,468 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    text-align: center;
+}
+
+.logo{
+  text-align: center;
+    
+}
+.cl1{
+    float: left;
+    margin-left: 23%;
+    display: inline;
+    
+}
+.cl2{
+    float: right;
+  margin-right: 27%;
+    display: inline;
+}
+
+.menu{
+    width: 100%;
+    display:flex;
+    transition: all 0.3s ease-in-out;
+    justify-content: space-between;
+}
+a.hi{
+    display: inline; 
+     text-decoration: none;
+     color: rgb(0, 0, 0);   
+   }
+   
+   a.hi :focus{
+       color: white;
+   }
+   li{
+    display: inline;
+    padding: 25px;
+    margin: 6px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+li:hover{
+    background-color: #ff2b06;
+border-radius: 60px;
+color: white;
+}
+.dropdown{
+  
+    position: relative;
+    display:inline-table;
+   
+    margin-top: 2%;
+   
+
+
+}
+li a.hi:hover{
+    color: white;
+}
+.dropdown .content li a.hi:hover{
+    color: white;
+}
+.content{
+    display: none;
+    position: absolute;
+   background-color: rgba(240, 248, 255, 0.37); 
+   
+   height: 155px;
+    margin-top: 2%;
+    padding: 2%;
+    min-width: 210px;
+  
+  } 
+  .dropdown:hover .content{
+    display: block;
+    margin-top: 15px;
+  }
+  
+
+.div1{
+    width: 100%;
+}
+.bcimg{
+    margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+    width: 800px;
+    height: 450px;
+ 
+    
+}
+.main-part{
+    background-image: url(images/auditions.jpg);
+    background-size:cover;
+    width:100%;
+    margin-top:3%;
+    height:95vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.main-part-content{
+    width:60%;
+    margin:auto;
+    height:95vh;
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+    flex-direction:column;
+    color:#f9f9f9; 
+}
+.opacity{
+    width:100%;
+    height:95vh;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.main-part-content h1  {
+    font-weight: 800;
+    line-height: 25px;
+    font-size:50px;
+    margin:25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.main-part-content p{
+    font-size:17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.all-content{
+    width:100%;
+    margin-top:5em;
+    /* border:1px solid black; */
+    padding:5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    height:130em;
+}
+.first-step{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width:80%;
+    justify-content:space-around;
+    display:flex;
+    align-items:center;
+    
+}
+.first-step img{
+    width:45%;
+}
+.first-step .text{
+    width:35%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.second-step{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width:80%;
+    justify-content:space-around;
+    display:flex;
+    align-items:center;
+    
+}
+.second-step img{
+    width:22%;
+}
+.second-step .text{
+    width:35%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.third-step{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    width:80%;
+    justify-content:space-around;
+    display:flex;
+    align-items:center;
+    
+}
+.third-step img{
+    width:30%;
+}
+.third-step .text{
+    width:35%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.fourth-step{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width:80%;
+    justify-content:space-around;
+    display:flex;
+    align-items:center;
+    
+}
+.fourth-step img{
+    width:35%;
+}
+.fourth-step .text{
+    width:35%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+.fifth-step{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width:80%;
+    justify-content:space-around;
+    display:flex;
+    align-items:center;
+    
+}
+.fifth-step img{
+    width:55%;
+}
+.fifth-step .text{
+    width:35%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+  .text-white{
+    background-color:#cc001b;
+    text-align:center;
+  }
+  .text-white:hover{
+    background-color:#cc001ba3;
+    transition:1s;
+    cursor:pointer;
+  }
+  .container{
+    width:100%;
+  }
+  .positions{
+    width:100%;
+    height:30em;
+    display:flex;
+    align-items:center;
+  }
+  .container h2{
+    text-align:center;
+    text-transform: uppercase;
+    color:#ae0018;
+  }
+
+
+
+
+
+  @media (min-device-width: 320px) and (max-device-width: 720px){
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .logo{
+       
+        justify-content: center;
+    }
+    .cl1{
+        float: left;
+        margin-left: 15%;
+        
+    }
+    .cl2{
+        float: right;
+        margin-right: 16%;
+        margin-top: 0%;
+    }
+    .menu{
+        width: 100%;
+        margin-top: -3%;
+        
+        transition: all 0.3s ease-in-out;
+        justify-content: space-between;
+    }
+    
+    a.hi{
+    
+        text-decoration: none;
+        color: rgb(0, 0, 0);   
+      }
+      a.hi :hover{
+      background-color: #ff2b06;
+      }
+      
+    li{
+        display: inline;
+        padding: 25px;
+        margin: 6px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: all 0.3s ease-in-out;
+        
+        
+    }
+    li:hover{
+        background-color: #ff2b06;
+        border-radius:4px ;
+    
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+        float: right;
+       
+      }
+      .main-part{
+        background-image: url(images/auditions.jpg);
+        background-size:cover;
+        width:100%;
+        margin-top:3%;
+        height:95vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+      .main-part-content{
+        width:90%;
+        margin:auto;
+        height:95vh;
+        display:flex;
+        align-items:center;
+        justify-content:center; 
+        flex-direction:column;
+        color:#f9f9f9; 
+    }
+    .main-part-content h1  {
+        font-weight: 800;
+        line-height: 25px;
+        font-size:47px;
+        margin:25px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .main-part-content p{
+        font-size:22px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    }
+}
+
+@media (min-device-width: 760px) and (max-device-width: 1200px){
+   
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .logo{
+       justify-content: center;
+        
+    }
+    .cl1{
+        float: left;
+        margin-left: 15%;
+        
+    }
+    .cl2{
+        float: right;
+        margin-right: 18%;
+        margin-top: 0%;
+    }
+    .menu{
+        width: 100%;
+        margin-top:-2%;
+        
+        transition: all 0.3s ease-in-out;
+        justify-content: space-between;
+    }
+    
+    a.hi{
+    
+        text-decoration: none;
+        color: rgb(0, 0, 0);   
+      }
+      a.hi :hover{
+      background-color: #ff2b06;;
+      }
+      
+    li{
+        display: inline;
+        padding: 25px;
+        margin: 6px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: all 0.3s ease-in-out;
+        
+        
+    }
+    li:hover{
+        background-color: #ff2b06;
+        border-radius:4px ;
+    
+    }
+   .dropdown{
+  position: relative;
+  display: inline-block;
+  float: right;
+ 
+}
+    
+    .content{
+        display: none;
+        position: absolute;
+        padding: 2%;
+        min-width: 220px;
+    
+    } 
+    .content a :hover{
+        color: black;
+        
+       
+    }
+    .dropdown:hover .content{
+        display: block;
+        margin-top: 30px;
+    }
+    .main-part{
+        background-image: url(images/auditions.jpg);
+        background-size:cover;
+        width:100%;
+        margin-top:3%;
+        height:95vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+      .main-part-content{
+        width:90%;
+        margin:auto;
+        height:95vh;
+        display:flex;
+        align-items:center;
+        justify-content:center; 
+        flex-direction:column;
+        color:#f9f9f9; 
+    }
+    .main-part-content h1  {
+        font-weight: 800;
+        line-height: 25px;
+        font-size:50px;
+        margin:25px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .main-part-content p{
+        font-size:22px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    }
+}

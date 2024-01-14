@@ -1,0 +1,685 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+ text-align: center;
+    
+}
+.cl1{
+    
+  float: left;
+  margin-left: 23%;
+  display: inline;
+  
+}
+.cl2{
+  float: right;
+margin-right: 27%;
+  display: inline;
+}
+.menu{
+  width: 100%;
+ 
+  
+  transition: all 0.3s ease-in-out;
+  justify-content: space-between;
+}
+
+a.hi{
+ display: inline; 
+  text-decoration: none;
+  color: rgb(0, 0, 0);   
+}
+
+a.hi :focus{
+    color: white;
+}
+
+li{
+  display: inline;
+  padding: 25px;
+  margin: 6px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease-in-out;
+  
+  
+}
+li:hover{
+  background-color: #ff2b06;
+border-radius: 60px;
+color: white;
+}
+.dropdown{
+
+  position: relative;
+  display:inline-table;
+  
+  margin-top: 2%;
+ 
+
+
+}
+li a.hi:hover{
+  color: white;
+}
+.dropdown .content li a.hi:hover{
+  color: white;
+}
+.content{
+  display: none;
+  position: absolute;
+ background-color: rgba(240, 248, 255, 0.37); 
+ 
+ height: 155px;
+  margin-top: 2%;
+  padding: 2%;
+  min-width: 210px;
+
+} 
+
+.dropdown:hover .content{
+  display: block;
+  margin-top: 15px;
+}
+.img{
+   width: 60%;
+   margin-top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+   
+    
+}
+
+.img img{
+  width: 800px;
+  height: 400px;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.testimonial-container {
+  background-color: #d6d9e2;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  font-family:sans-serif;
+  margin: 20px auto;
+  margin-top: 12%;
+  padding: 50px 80px;
+  max-width: 768px;
+  font-weight: bold;
+  position: relative;
+}
+
+.fa-quote {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
+
+.fa-quote-right {
+  left: 40px;
+}
+
+.fa-quote-left {
+  right: 40px;
+}
+
+.testimonial {
+  line-height: 28px;
+  text-align: justify;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user .user-image {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+
+.user .user-details {
+  margin-left: 10px;
+}
+
+.user .username {
+  margin: 0;
+}
+
+.user .role {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+
+
+
+
+  .fa-quote {
+    display: none;
+  }
+
+.videos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+iframe{
+  object-fit: cover;
+  margin: 10px;
+  
+  
+  max-width: 100%;
+ 
+}
+h1{
+  text-align: center;
+  margin-top:10%;
+  text-decoration: black underline dotted;
+ 
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  
+}
+.button {
+  
+  font-size: 15px;
+  font-family:sans-serif;
+ padding: 4px;
+ border-radius: 5px;
+  width: 100px;
+border: 2px 2px 2px 2px solid  #ff2a05;
+border-color:#ff2a05 ;
+  color: #ff2a05;
+  font-weight:600;
+  
+}
+.button:hover{
+  background-color:#ff2a05 ;
+  color: #DDDDDD;
+}
+
+
+ 
+.link{
+  margin-left: auto;
+  margin-right: auto;
+ width: 8%;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 720px){
+  *{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+   text-align: center;
+    
+}
+.cl1{
+    float: left;
+    margin-left: 15%;
+    
+}
+.cl2{
+    float: right;
+    margin-right: 18%;
+    margin-top: 0%;
+}
+.menu{
+    width: 100%;
+    margin-top: -2%;
+    
+    transition: all 0.3s ease-in-out;
+    justify-content: space-between;
+}
+
+a.hi{
+    
+  text-decoration: none;
+  color: rgb(0, 0, 0);   
+}
+a.hi :hover{
+background-color: #ff2b06;;
+}
+
+li{
+    display: inline;
+    padding: 25px;
+    margin: 6px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+li:hover{
+    background-color: #ff2b06;
+    border-radius:4px ;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    float: left;
+   
+}
+
+.content{
+  display: none;
+  position: absolute;
+ background-color: rgba(240, 248, 255, 0.37); 
+ 
+ height: 155px;
+  margin-top: 2%;
+  padding: 2%;
+  min-width: 210px;
+
+} 
+.content a :hover{
+    color: black;
+   
+}
+.dropdown:hover .content{
+    display: block;
+    margin-top: 15px;
+}
+.img{
+    width: 500px;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 9%;
+    
+}
+.img img{
+    width: 800px;
+    height: 400px;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.testimonial-container {
+  background-color: #d6d9e2;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin: 20px auto;
+  margin-top: 20%;
+  padding: 50px 80px;
+  max-width: 768px;
+  font-weight: bold;
+  position: relative;
+}
+
+.fa-quote {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
+
+.fa-quote-right {
+  left: 40px;
+}
+
+.fa-quote-left {
+  right: 40px;
+}
+
+.testimonial {
+  line-height: 28px;
+  text-align: justify;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user .user-image {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+
+.user .user-details {
+  margin-left: 10px;
+}
+
+.user .username {
+  margin: 0;
+}
+
+.user .role {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+
+
+
+.videos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+iframe{
+  object-fit: cover;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+ 
+}
+h1{
+  text-align: center;
+  margin-top:10%;
+  text-decoration: black underline dotted;
+ 
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.336);
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+ 
+ 
+  width: 100px;
+
+  color: white;
+  font-weight: bold;
+  
+}
+
+
+ 
+.link{
+  margin-left: auto;
+  margin-right: auto;
+ width: 6%;
+}
+}
+@media (min-device-width: 760px) and (max-device-width: 1200px){
+  *{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+   text-align: center;
+    
+}
+.cl1{
+    float: left;
+    margin-left: 15%;
+    
+}
+.cl2{
+    float: right;
+    margin-right: 18%;
+    margin-top: 0%;
+}
+.menu{
+    width: 100%;
+    margin-top: -2%;
+    
+    transition: all 0.3s ease-in-out;
+    justify-content: space-between;
+}
+
+a.hi{
+    
+  text-decoration: none;
+  color: rgb(0, 0, 0);   
+}
+a.hi :hover{
+background-color: #ff2b06;;
+}
+
+li{
+    display: inline;
+    padding: 25px;
+    margin: 6px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+li:hover{
+    background-color: #ff2b06;
+    border-radius:4px ;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    float: left;
+   
+}
+
+.content{
+  display: none;
+  position: absolute;
+ background-color: rgba(240, 248, 255, 0.37); 
+ 
+ height: 155px;
+  margin-top: 2%;
+  padding: 2%;
+  min-width: 210px;
+
+} 
+.content a :hover{
+    color: black;
+   
+}
+.dropdown:hover .content{
+    display: block;
+    margin-top: 15px;
+}
+.img{
+    width: 500px;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 9%;
+    
+}
+.img img{
+    width: 800px;
+    height: 400px;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.testimonial-container {
+  background-color: #d6d9e2;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin: 20px auto;
+  margin-top: 20%;
+  padding: 50px 80px;
+  max-width: 768px;
+  font-weight: bold;
+  position: relative;
+}
+
+.fa-quote {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
+
+.fa-quote-right {
+  left: 40px;
+}
+
+.fa-quote-left {
+  right: 40px;
+}
+
+.testimonial {
+  line-height: 28px;
+  text-align: justify;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user .user-image {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+
+.user .user-details {
+  margin-left: 10px;
+}
+
+.user .username {
+  margin: 0;
+}
+
+.user .role {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    padding: 20px 30px;
+  }
+
+  .fa-quote {
+    display: none;
+  }
+}
+.videos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+iframe{
+  object-fit: cover;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+ 
+}
+h1{
+  text-align: center;
+  margin-top:10%;
+  text-decoration: black underline dotted;
+ 
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.336);
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+ 
+ 
+  width: 150px;
+
+  color: white;
+  font-weight: bold;
+  
+}
+.link{
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
+} 
+}
+ 
